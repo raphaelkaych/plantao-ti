@@ -2,6 +2,8 @@
 
 > Laboratório de triagem de incidentes pelo terminal.
 
+**[Abra a demonstração no navegador](https://raphael-kaych.raphaelvindex.chatgpt.site/demos/plantao-ti)** para cadastrar chamados fictícios, avançar o relógio e resolver um incidente. A versão local abaixo grava o histórico em SQLite.
+
 Um ERP fora do ar e um pedido de acesso podem chegar no mesmo minuto. Este projeto modela uma fila de suporte em que cada prioridade tem um prazo de resolução. Os chamados abertos aparecem na ordem do prazo, com indicação de atraso. A resolução fica registrada no SQLite.
 
 | Prioridade | Cenário fictício | Prazo corrido |
