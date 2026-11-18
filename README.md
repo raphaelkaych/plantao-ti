@@ -6,9 +6,9 @@
 | --- | --- | --- |
 | Um ERP fora do ar e um pedido de acesso chegam no mesmo minuto. | Ordenar a fila pelo prazo de resolução e encerrar com uma atualização condicional. | Um P1 aberto depois de um P3 entra na frente da fila, e um segundo fechamento do mesmo incidente é recusado. [`test_plantao.py`](test_plantao.py) |
 
-**[Abra a demonstração no navegador](https://raphael-kaych.raphaelvindex.chatgpt.site/demos/plantao-ti)** para cadastrar chamados fictícios, avançar o relógio e resolver um incidente. A versão local abaixo grava o histórico em SQLite.
+**[Abra a demonstração no navegador](https://raphael-kaych.raphaelkaych.workers.dev/demos/plantao-ti)** para cadastrar chamados fictícios, avançar o relógio e resolver um incidente. A versão local abaixo grava o histórico em SQLite.
 
-[Estudo de caso e arquitetura](https://raphael-kaych.raphaelvindex.chatgpt.site/projetos/plantao-ti)
+[Estudo de caso e arquitetura](https://raphael-kaych.raphaelkaych.workers.dev/projetos/plantao-ti)
 
 Um ERP fora do ar e um pedido de acesso podem chegar no mesmo minuto. Este projeto modela uma fila de suporte em que cada prioridade tem um prazo de resolução. Os chamados abertos aparecem na ordem do prazo, com indicação de atraso. A resolução fica registrada no SQLite.
 
